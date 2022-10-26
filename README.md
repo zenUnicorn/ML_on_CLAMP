@@ -88,6 +88,31 @@ Run the code cell below to perform this split.
 
 Now that the Dataset has been Preprocessed it is time to create Models using it. In our case we would like to know if a given row of the dataset is malware or not malware. This Modeling task is called **Classification**. We can use anything from Naive to Complex Models and in this project will only touch on a few different types of models. There are many additional classification model types but most will fit into similar training/analysis pattern.
 
+### Section 3.1: Supervised Learning Models
+**The following are some of the supervised learning models that are currently available in** [`scikit-learn`](http://scikit-learn.org/stable/supervised_learning.html) **which is the easiest place to start when creating models:**
+- Gaussian Naive Bayes (GaussianNB)
+- Decision Trees
+- Ensemble Methods (Bagging, AdaBoost, Random Forest, Gradient Boosting)
+- K-Nearest Neighbors (KNeighbors)
+- Stochastic Gradient Descent Classifier (SGDC)
+- Support Vector Machines (SVM)
+- Logistic Regression
+
+> **NOTE:** To learn more about supervised learning models, a useful resource is the scikit-learning documentation at https://scikit-learn.org/stable/supervised_learning.html. 
+
+> If you prefer video lectures, the freeCodeCamp Machine Learning in Python Tutorial at https://www.youtube.com/watch?v=pqNCD_5r0IU may be helpful.
+
+#### **Section 3.1.1: Logistic Regression**
+
+*What is Logistic Regression?*
+
+This type of statistical analysis (also known as logit model) is often used for predictive analytics and modeling, and extends to applications in machine learning. In this analytics approach, the dependent variable is finite or categorical: either A or B (binary regression) or a range of finite options A, B, C or D (multinomial regression). It is used in statistical software to understand the relationship between the dependent variable and one or more independent variables by estimating probabilities using a logistic regression equation. 
+
+This type of analysis can help you predict the likelihood of an event happening or a choice being made. For example, you may want to know the likelihood of a visitor choosing an offer made on your website — or not (dependent variable). Your analysis can look at known characteristics of visitors, such as sites they came from, repeat visits to your site, behavior on your site (independent variables). 
+
+
+https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+
 
 
 Happy coding!
