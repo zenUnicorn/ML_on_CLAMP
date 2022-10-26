@@ -16,4 +16,26 @@ The exponential increase in the creation of new malware in the last five years h
 Built using python
 ```
 
+## PACKAGE VERSIONS
+
+- pandas==1.3.5
+- numpy==1.21.6
+- scikit-learn==1.0.2
+
+```python
+!pip install pandas==1.3.5 numpy==1.21.6 scikit-learn==1.0.2 joblib==1.1.0
+```
+
+To be able to follow through: 
+
+Pandas [documentation](https://pandas.pydata.org/docs/)
+If you prefer [video](https://www.youtube.com/watch?v=vmEHCJofslg), I got you.
+
+### Data Exploration
+The Dataset contains records of information gathered from Malware and Not-Malware Portable Executable (PE) Files.
+
+In this section we will do some of the intial exploration of the data (and how it was generated) and begin to create some graphs and summary statistics to understand the dataset better.
+
+
+
 Happy coding!
